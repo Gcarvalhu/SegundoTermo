@@ -69,3 +69,7 @@ WHERE IdCurso = 4;
 --CRUD
 --CREATE READ UPDATE DELETE
 --INSERT,SELECT,UPDATE,DELETE
+SELECT * FROM Disciplinas FULL JOIN Cursos ON Disciplinas.IdDisciplina = Cursos.IdCurso
+
+SELECT Disciplinas.Nome,Cursos.Nome FROM Disciplinas FULL JOIN Cursos ON Disciplinas.IdCurso = Cursos.IdCurso
+
